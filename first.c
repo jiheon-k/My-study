@@ -1,5 +1,6 @@
 #include<stdio.h>
 int main(void){
-    printf("hello world\n");
-    printf("second chance\n");
+    int a=10;
+    for(int i=1; i<10; i++)
+        printf("%d*%d = %d\n", i, a, i*a);
 }
